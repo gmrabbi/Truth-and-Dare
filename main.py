@@ -29,6 +29,7 @@ selected_player, have_to_do = "", ""
 
 def selection(Name1, Name2):
     global selected_player, have_to_do
+    selected_player, have_to_do = "",""
     if Name1 == players and Name2 == items:
         selected_player = random.choice(players)
     # elif Name2 == items:
